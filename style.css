@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+.navbar{
+    height: 170px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items:center;
+   justify-content: space-between;
+    justify-content: space-evenly;
+    
+
+   
+}
+
+.nav-logo{
+    height:170px;
+    width: 130px;
+ 
+
+}
+
+.logo{
+background-image: url("coffeecof.jpg");
+background-size: cover;
+height: 180px;
+width: 170%;
+display: flex;
+}
+.border{
+
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+ border:1.5px solid white;   
+}
+
+
+/** box2 **/
+.add-first{
+    colour:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    display: flex;
+      font-size: 1.3rem;
+}
+.add-sec{
+margin-left: 3px;
+display: flex;
+font-size: 1.3rem;;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.nav-logo6{
+    height:170px;
+    width: 130px;
+    justify-content: space-evenly;
+ 
+
+}
+
+.logo6{
+background-image: url("mug.jpg");
+background-size: cover;
+height: 170px;
+width: 170%;
+display: flex;
+}
+.search-icon{
+    display: flex;
+}
+
+
+/** box 3 **/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+background-color: brown;
+width: 620px;
+height:40px;
+border-radius: 3px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-input{
+    width: 230%;
+    font-size: 1.2rem;
+    border: none;
+    font-weight: 700;
+
+}
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: brown;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid brown;
+}
+/** box4**/
+span{
+    font-size: 1.4rem;
+}
+
+.nav-second{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.nav-second2{
+    font-size: 1.4rem;
+}
+/**box6**/
+.nav-cart i{
+   font-size: 35px;
+}
+    
+.nav-cart{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.nav-setting{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.nav-setting i{
+    font-size: 35px;
+}
+.nav-comment{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.nav-comment i{
+
+    font-size: 35px;
+}
+
+
+
+.panel{
+   height: 40px;
+   background-color: brown;
+   display: flex;
+   color: white;
+   align-items: center;
+   
+   justify-content: space-evenly;
+
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 30px;
+
+
+}
+.panel-ops{
+    width:70%;
+    font-size: 1.85 rem;
+     font-weight: 700;
+}
+
+.panel-deals{
+    font-size: 1.3rem;;
+    font-weight: 700;
+
+}
+
+.menu-section{
+background-image: url("menu.png");
+background-size: cover;
+height:2010px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+}
+
+
+.menu-msg{
+    background-color: lightgoldenrodyellow;
+    color: brown;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        font-size: 2rem;
+}
+
+.menu-msg a {
+color: white;
+
+}
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color: rgb(104, 93, 59);
+}
+
+.box{
+   
+    height:600px;
+    width: 25%;
+    background-color: rgb(126, 100, 76);
+   padding: 20px 0px 15px;
+   margin-top: 15px;
+
+}
+
+.box-image{
+    background-size: cover;
+    height: 490px;
+    width: 98%;
+    align-items: center;
+
+   
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+}
+
+
+.box content{
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.box-content p{
+    color: rgb(247, 3, 3);
+    font-size: 30px;
+}
+footer{
+    margin-top: 15px;
+
+}
+.foot-panel1{
+    background-color: black;
+    color: white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+.foot-panel{
+    background-color: rgba(165, 101, 42, 0.815);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    height: 300px;
+     display: flex;
+     justify-content: space-between;
+     justify-content: space-evenly;
+     justify-content: space-around;
+
+}
+ul{
+    margin-top: 30px;
+}
+ul a {
+    display: block;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: #dddddd;
+
+
+}
+
+
+.foot-panel2{
+    background-color:rgba(165, 101, 42, 0.815) ;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo{
+    background-image: url("newlogo.jpg");
+    background-size: cover;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    height: 140px;
+    width: 140px;
+
+
+}
+.foot-panel3{
+    background-color: black;
+    color: white;
+    height: 90px;
+    font-size: 1rem;
+    text-align: center;
+
+  
+
+}
+
+.pages{
+    font-size: 1.5rem ;
+     text-align: center;
+     padding-top: 25px;
+     justify-content: space-evenly;
+     justify-content: space-between;
+
+}
+.logoos{
+    padding-top: 5px;
+    font-weight: 700;
+  
+}
+
+.logoos l{
+    font-size: 50px;
+}
